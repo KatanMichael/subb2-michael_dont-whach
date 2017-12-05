@@ -242,7 +242,7 @@ void Matrixh::operator=(const Matrixh&  put)
 		if (width!=put.width)
 		{
 			
-	     this->width=put.width;            //כדכן רק את הרוחב ותקצה מחדש כל שורה כי מספר השורות שווה ורק הרוחב שונה 
+	     this->width=put.width;           
 
 			for (int i=0;i<lenght;i++)
 			{
